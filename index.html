@@ -26,9 +26,22 @@ left: 50%;
 top: 84%;
 transform: translate(-50%, -50%);
 }
-      @media (max-width: 768px) {
+@media (max-width: 768px) {
+  body {
+    min-height: auto;
+  }
+
   a {
-    top: 52%;
+    position: static;
+    transform: none;
+    display: block;
+    width: fit-content;
+    max-width: 80%;
+    margin: 30px auto;
+    padding: 12px 18px;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
   }
 }
    </style>
