@@ -1,1 +1,177 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Claustro Alto | San Juan Bautista, Tetela del Volcán</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background-color: #325d4a;
+      color: white;
+    }
+
+    .scene {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* IMAGEN */
+    .image-container {
+      width: 100%;
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* CUADRO DE TEXTO */
+    .content {
+      background-color: #325d4a;
+      color: white;
+      padding: 28px 22px 35px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0 0 20px;
+      font-size: 2rem;
+      font-weight: normal;
+      color: white;
+    }
+
+    p {
+      max-width: 850px;
+      margin: 0 auto 18px;
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: white;
+    }
+
+    /* BOTONES DE NAVEGACIÓN */
+    .navigation {
+      max-width: 850px;
+      margin: 30px auto 0;
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+    }
+
+    .nav-button {
+      display: inline-block;
+      padding: 13px 22px;
+      border: 2px solid white;
+      border-radius: 8px;
+      color: white;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 1rem;
+      background-color: transparent;
+      transition: 0.3s;
+    }
+
+    .nav-button:hover {
+      background-color: white;
+      color: #325d4a;
+    }
+
+    /* ADAPTACIÓN PARA CELULAR */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .navigation {
+        flex-direction: column;
+      }
+
+      .nav-button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="scene">
+
+    <!-- IMAGEN DEL CLAUSTRO ALTO -->
+    <div class="image-container">
+      <img
+        src="WhatsApp Image 2026-09-24 at 09.26.30.jpeg"
+        alt="Claustro alto del Ex Convento de San Juan Bautista de Tetela del Volcán"
+      >
+    </div>
+
+    <!-- SEGUNDA PARTE DE LA EXPLICACIÓN -->
+    <div class="content">
+
+      <h1>Un convento organizado alrededor del claustro</h1>
+
+      <p>
+        Desde el claustro alto se comprende mejor la organización del antiguo
+        convento. Sus corredores distribuyen los distintos espacios de la
+        planta superior y mantienen siempre como referencia el patio central.
+      </p>
+
+      <p>
+        Esta disposición no era solamente práctica. El claustro constituía
+        el corazón de la casa religiosa: alrededor de él transcurrían las
+        distintas horas del día y se articulaban la oración, el estudio,
+        el descanso y la convivencia de la comunidad.
+      </p>
+
+      <!-- BOTONES -->
+      <div class="navigation">
+
+        <a class="nav-button" href="claustro-alto.html">
+          ← Regresar
+        </a>
+
+        <a class="nav-button" href="claustro-alto-3.html">
+          Siguiente →
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- MÚSICA DE FONDO -->
+  <audio autoplay loop>
+    <source
+      src="lorenzobuczek-incantations-339854.mp3"
+      type="audio/mpeg"
+    >
+  </audio>
+
+  <!-- CONTADOR DE VISITAS GOATCOUNTER -->
+  <script
+    data-goatcounter="https://sanjuanbautistatetela.goatcounter.com/count"
+    async
+    src="//gc.zgo.at/count.js">
+  </script>
+
+</body>
+</html>
