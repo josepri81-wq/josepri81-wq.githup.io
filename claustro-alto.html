@@ -1,172 +1,162 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Claustro Alto | San Juan Bautista, Tetela del Volcán</title>
+<title>Claustro Alto | San Juan Bautista, Tetela del Volcán</title>
 
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+<style>
 
-    body {
-      margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
-      background-color: #325d4a;
-      color: white;
-    }
+* {
+  box-sizing: border-box;
+}
 
-    .scene {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
+body {
+  margin: 0;
+  background-color: #ffffff;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #333333;
+}
 
-    .image-container {
-      width: 100%;
-      background-color: #000;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+/* IMAGEN */
 
-    .image-container img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
+.imagen {
+  width: 100%;
+  display: block;
+}
 
-    .content {
-      background-color: #325d4a;
-      color: white;
-      padding: 28px 22px 35px;
-      text-align: center;
-    }
+/* ÁREA DE TEXTO */
 
-    h1 {
-      margin: 0 0 20px;
-      font-size: 2rem;
-      font-weight: normal;
-    }
+.contenido {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 25px;
+  text-align: center;
+  background-color: #ffffff;
+}
 
-    p {
-      max-width: 850px;
-      margin: 0 auto 18px;
-      font-size: 1.1rem;
-      line-height: 1.7;
-    }
+h1 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  font-weight: normal;
+}
 
-    .navigation {
-      max-width: 850px;
-      margin: 30px auto 0;
-      display: flex;
-      justify-content: space-between;
-      gap: 15px;
-    }
+p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin: 0 auto 20px;
+}
 
-    .nav-button {
-      display: inline-block;
-      padding: 13px 22px;
-      border: 2px solid white;
-      border-radius: 8px;
-      color: white;
-      text-decoration: none;
-      font-family: Arial, sans-serif;
-      font-size: 1rem;
-      background-color: transparent;
-      transition: 0.3s;
-    }
+/* NAVEGACIÓN */
 
-    .nav-button:hover {
-      background-color: white;
-      color: #325d4a;
-    }
+.navegacion {
+  max-width: 900px;
+  margin: 10px auto 35px;
+  padding: 0 20px;
+  display: flex;
+  gap: 15px;
+}
 
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 1.6rem;
-      }
+.boton {
+  display: inline-block;
+  flex: 1;
+  padding: 15px 10px;
+  background-color: #006847;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+}
 
-      p {
-        font-size: 1rem;
-      }
+/* CELULAR */
 
-      .navigation {
-        flex-direction: column;
-      }
+@media (max-width: 600px) {
 
-      .nav-button {
-        width: 100%;
-      }
-    }
-  </style>
+  .contenido {
+    padding: 25px 20px;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .navegacion {
+    flex-direction: column;
+  }
+}
+
+</style>
 </head>
 
 <body>
 
-  <div class="scene">
+<!-- IMAGEN -->
 
-    <!-- IMAGEN DEL CLAUSTRO ALTO -->
-    <div class="image-container">
-      <img
-        src="WhatsApp Image 2026-09-23 at 22.00.49.jpeg"
-        alt="Claustro alto del Ex Convento de San Juan Bautista de Tetela del Volcán"
-      >
-    </div>
+<img
+  class="imagen"
+  src="WhatsApp Image 2026-09-23 at 22.00.49.jpeg"
+  alt="Claustro alto del Ex Convento de San Juan Bautista de Tetela del Volcán"
+>
 
-    <!-- TEXTO -->
-    <div class="content">
+<!-- TEXTO -->
 
-      <h1>El claustro alto: silencio y recogimiento</h1>
+<div class="contenido">
 
-      <p>
-        Al subir a la planta alta, el claustro adquiere un carácter más
-        silencioso y reservado. Si el claustro bajo concentraba buena parte
-        de la vida comunitaria, este nivel conducía hacia los espacios
-        destinados al descanso, el estudio y la vida más íntima de los frailes.
-      </p>
+<h1>El claustro alto: silencio y recogimiento</h1>
 
-      <p>
-        Desde sus corredores, los religiosos podían recorrer el convento
-        conservando el ambiente de silencio y recogimiento propio de la vida
-        dominicana. La arquitectura misma ayudaba a separar progresivamente
-        el bullicio exterior de los espacios dedicados a la oración
-        y la contemplación.
-      </p>
+<p>
+Al subir a la planta alta, el claustro adquiere un carácter más silencioso
+y reservado. Si el claustro bajo concentraba buena parte de la vida
+comunitaria, este nivel conducía hacia los espacios destinados al descanso,
+el estudio y la vida más íntima de los frailes.
+</p>
 
-      <!-- NAVEGACIÓN -->
-      <div class="navigation">
+<p>
+Desde sus corredores, los religiosos podían recorrer el convento conservando
+el ambiente de silencio y recogimiento propio de la vida dominicana.
+La arquitectura misma ayudaba a separar progresivamente el bullicio exterior
+de los espacios dedicados a la oración y la contemplación.
+</p>
 
-        <a class="nav-button" href="escaleras.html">
-          ← Regresar a las escaleras
-        </a>
+</div>
 
-        <a class="nav-button" href="claustro-alto-2.html">
-          Continuar el claustro alto →
-        </a>
+<!-- BOTONES -->
 
-      </div>
+<div class="navegacion">
 
-    </div>
+<a class="boton" href="escaleras.html">
+← REGRESAR
+</a>
 
-  </div>
+<a class="boton" href="claustro-alto-2.html">
+SIGUIENTE →
+</a>
 
-  <!-- MÚSICA DE FONDO -->
-  <audio autoplay loop>
-    <source
-      src="lorenzobuczek-incantations-339854.mp3"
-      type="audio/mpeg"
-    >
-  </audio>
+</div>
 
-  <!-- CONTADOR DE VISITAS GOATCOUNTER -->
-  <script
-    data-goatcounter="https://sanjuanbautistatetela.goatcounter.com/count"
-    async
-    src="//gc.zgo.at/count.js">
-  </script>
+<!-- MÚSICA -->
+
+<audio autoplay loop>
+  <source
+    src="lorenzobuczek-incantations-339854.mp3"
+    type="audio/mpeg">
+</audio>
+
+<!-- CONTADOR GOATCOUNTER -->
+
+<script
+  data-goatcounter="https://sanjuanbautistatetela.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js">
+</script>
 
 </body>
 </html>
