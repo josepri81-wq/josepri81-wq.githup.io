@@ -1,1 +1,157 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>El patio del claustro</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f0e6;
+            font-family: Georgia, "Times New Roman", serif;
+            color: #2d2d2d;
+            text-align: center;
+        }
+
+        .contenedor {
+            max-width: 900px;
+            margin: auto;
+            padding: 25px 20px 40px;
+        }
+
+        h1 {
+            font-size: 2.2em;
+            margin-bottom: 8px;
+        }
+
+        h2 {
+            font-size: 1.25em;
+            font-weight: normal;
+            font-style: italic;
+            margin-top: 0;
+            margin-bottom: 25px;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            max-width: 850px;
+            height: auto;
+            margin: 20px auto 30px;
+            border-radius: 6px;
+        }
+
+        p {
+            font-size: 1.15em;
+            line-height: 1.7;
+            text-align: justify;
+            margin: 18px 0;
+        }
+
+        audio {
+            display: block;
+            width: 90%;
+            margin: 30px auto;
+        }
+
+        .navegacion {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            margin-top: 35px;
+        }
+
+        .boton {
+            display: inline-block;
+            flex: 1;
+            padding: 15px 10px;
+            background-color: #006847;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            font-family: Arial, sans-serif;
+        }
+
+        .boton:hover {
+            opacity: 0.85;
+        }
+
+        @media (max-width: 600px) {
+            .navegacion {
+                flex-direction: column;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            p {
+                font-size: 1.05em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <h1>El patio del claustro</h1>
+
+    <h2>Un espacio abierto al cielo y marcado por la identidad dominicana</h2>
+
+    <img
+        src="WhatsApp Image 2026-09-19 at 14.10.12.jpeg"
+        alt="Patio del claustro del antiguo convento de San Juan Bautista de Tetela del Volcán"
+    >
+
+    <p>
+        En el corazón del claustro se abre este patio, un espacio de luz y silencio
+        alrededor del cual se organizaba buena parte de la vida del convento.
+        Después de recorrer los corredores cubiertos, el fraile encontraba aquí
+        un lugar abierto al cielo, donde la arquitectura parecía poner en diálogo
+        la vida cotidiana con la contemplación.
+    </p>
+
+    <p>
+        En el centro destaca la <strong>cruz dominicana trazada en el piso</strong>,
+        un signo que recuerda la identidad de la Orden de Predicadores.
+        Su presencia hace que incluso el espacio mismo hable de la comunidad
+        que habitó este convento y de la misión que dio sentido a su vida:
+        contemplar, estudiar y anunciar el Evangelio.
+    </p>
+
+    <p>
+        Desde este patio volvemos ahora a los corredores del
+        <strong>claustro bajo</strong>, donde los muros conservan otro de sus
+        grandes testimonios: los frescos de <strong>los Apóstoles y los santos dominicos</strong>.
+    </p>
+
+    <audio controls loop>
+        <source
+            src="magicroom-musica-ambiental-del-bosque-con-sonidos-de-naturaleza-591286.mp3"
+            type="audio/mpeg">
+        Tu navegador no puede reproducir este archivo de audio.
+    </audio>
+
+    <div class="navegacion">
+
+        <a class="boton" href="el-bautismo-del-señor.html">
+            ← REGRESAR
+        </a>
+
+        <a class="boton" href="claustro-bajo-3.html">
+            SIGUIENTE →
+        </a>
+
+    </div>
+
+</div>
+
+</body>
+</html>
