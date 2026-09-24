@@ -1,177 +1,191 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Claustro Alto | San Juan Bautista, Tetela del Volcán</title>
+<title>Claustro Alto | San Juan Bautista, Tetela del Volcán</title>
 
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+<style>
 
-    body {
-      margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
-      background-color: #325d4a;
-      color: white;
-    }
+* {
+  box-sizing: border-box;
+}
 
-    .scene {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
+body {
+  margin: 0;
+  background-color: #ffffff;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #333333;
+}
 
-    /* IMAGEN */
-    .image-container {
-      width: 100%;
-      background-color: #000;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+/* =========================
+   IMAGEN
+   ========================= */
 
-    .image-container img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
+.imagen {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
-    /* CUADRO DE TEXTO */
-    .content {
-      background-color: #325d4a;
-      color: white;
-      padding: 28px 22px 35px;
-      text-align: center;
-    }
+/* =========================
+   ÁREA DE TEXTO
+   ========================= */
 
-    h1 {
-      margin: 0 0 20px;
-      font-size: 2rem;
-      font-weight: normal;
-      color: white;
-    }
+.contenido {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 25px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #333333;
+}
 
-    p {
-      max-width: 850px;
-      margin: 0 auto 18px;
-      font-size: 1.1rem;
-      line-height: 1.7;
-      color: white;
-    }
+h1 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #333333;
+}
 
-    /* BOTONES DE NAVEGACIÓN */
-    .navigation {
-      max-width: 850px;
-      margin: 30px auto 0;
-      display: flex;
-      justify-content: space-between;
-      gap: 15px;
-    }
+p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin: 0 auto 20px;
+  color: #333333;
+}
 
-    .nav-button {
-      display: inline-block;
-      padding: 13px 22px;
-      border: 2px solid white;
-      border-radius: 8px;
-      color: white;
-      text-decoration: none;
-      font-family: Arial, sans-serif;
-      font-size: 1rem;
-      background-color: transparent;
-      transition: 0.3s;
-    }
+/* =========================
+   BOTONES DE NAVEGACIÓN
+   ========================= */
 
-    .nav-button:hover {
-      background-color: white;
-      color: #325d4a;
-    }
+.navegacion {
+  max-width: 900px;
+  margin: 10px auto 35px;
+  padding: 0 20px;
+  display: flex;
+  gap: 15px;
+}
 
-    /* ADAPTACIÓN PARA CELULAR */
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 1.6rem;
-      }
+.boton {
+  display: inline-block;
+  flex: 1;
+  padding: 15px 10px;
+  background-color: #006847;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+}
 
-      p {
-        font-size: 1rem;
-      }
+.boton:hover {
+  opacity: 0.9;
+}
 
-      .navigation {
-        flex-direction: column;
-      }
+/* =========================
+   ADAPTACIÓN PARA CELULAR
+   ========================= */
 
-      .nav-button {
-        width: 100%;
-      }
-    }
-  </style>
+@media (max-width: 600px) {
+
+  .contenido {
+    padding: 25px 20px;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .navegacion {
+    flex-direction: column;
+  }
+
+  .boton {
+    width: 100%;
+  }
+}
+
+</style>
 </head>
 
 <body>
 
-  <div class="scene">
+<!-- =========================
+     IMAGEN DEL CLAUSTRO ALTO
+     ========================= -->
 
-    <!-- IMAGEN DEL CLAUSTRO ALTO -->
-    <div class="image-container">
-      <img
-        src="WhatsApp Image 2026-09-24 at 09.26.30.jpeg"
-        alt="Claustro alto del Ex Convento de San Juan Bautista de Tetela del Volcán"
-      >
-    </div>
+<img
+  class="imagen"
+  src="WhatsApp Image 2026-09-24 at 09.26.30.jpeg"
+  alt="Claustro alto del Ex Convento de San Juan Bautista de Tetela del Volcán"
+>
 
-    <!-- SEGUNDA PARTE DE LA EXPLICACIÓN -->
-    <div class="content">
+<!-- =========================
+     SEGUNDA PARTE DEL TEXTO
+     ========================= -->
 
-      <h1>Un convento organizado alrededor del claustro</h1>
+<div class="contenido">
 
-      <p>
-        Desde el claustro alto se comprende mejor la organización del antiguo
-        convento. Sus corredores distribuyen los distintos espacios de la
-        planta superior y mantienen siempre como referencia el patio central.
-      </p>
+<h1>Un convento organizado alrededor del claustro</h1>
 
-      <p>
-        Esta disposición no era solamente práctica. El claustro constituía
-        el corazón de la casa religiosa: alrededor de él transcurrían las
-        distintas horas del día y se articulaban la oración, el estudio,
-        el descanso y la convivencia de la comunidad.
-      </p>
+<p>
+Desde el claustro alto se comprende mejor la organización del antiguo
+convento. Sus corredores distribuyen los distintos espacios de la planta
+superior y mantienen siempre como referencia el patio central.
+</p>
 
-      <!-- BOTONES -->
-      <div class="navigation">
+<p>
+Esta disposición no era solamente práctica. El claustro constituía
+el corazón de la casa religiosa: alrededor de él transcurrían las
+distintas horas del día y se articulaban la oración, el estudio,
+el descanso y la convivencia de la comunidad.
+</p>
 
-        <a class="nav-button" href="claustro-alto.html">
-          ← Regresar
-        </a>
+</div>
 
-        <a class="nav-button" href="claustro-alto-3.html">
-          Siguiente →
-        </a>
+<!-- =========================
+     NAVEGACIÓN
+     ========================= -->
 
-      </div>
+<div class="navegacion">
 
-    </div>
+<a class="boton" href="claustro-alto.html">
+← REGRESAR
+</a>
 
-  </div>
+<a class="boton" href="claustro-alto-3.html">
+SIGUIENTE →
+</a>
 
-  <!-- MÚSICA DE FONDO -->
-  <audio autoplay loop>
-    <source
-      src="lorenzobuczek-incantations-339854.mp3"
-      type="audio/mpeg"
-    >
-  </audio>
+</div>
 
-  <!-- CONTADOR DE VISITAS GOATCOUNTER -->
-  <script
-    data-goatcounter="https://sanjuanbautistatetela.goatcounter.com/count"
-    async
-    src="//gc.zgo.at/count.js">
-  </script>
+<!-- =========================
+     MÚSICA DE FONDO
+     ========================= -->
+
+<audio autoplay loop>
+  <source
+    src="lorenzobuczek-incantations-339854.mp3"
+    type="audio/mpeg">
+</audio>
+
+<!-- =========================
+     CONTADOR GOATCOUNTER
+     ========================= -->
+
+<script
+  data-goatcounter="https://sanjuanbautistatetela.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js">
+</script>
 
 </body>
 </html>
